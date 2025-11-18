@@ -36,12 +36,12 @@ console.log(main(5, 7, multiply));
 
 const isPositive = (number) => {
   if (number >= 0) {
-    return `${number} დადებითია`;
+    return `რიცხვი ${number} დადებითია`;
   } else {
-    return "უარყოფითია";
+    return `რიცხვი ${number} უარყოფითია`;
   }
 };
-console.log(isPositive(50));
+console.log(isPositive(-5));
 
 // 6
 
@@ -146,6 +146,6 @@ const kvadrati = (num) => console.log(num * num);
 kvadrati(7);
 
 console.log(
-  "%ccode by:  Giorgi!",
+  "%ccode by:  Giorgi Kostava",
   "color: cyan; font-family: 'DM Serif Display', serif;  font-size: 30px; font-weight: 900;"
 );
